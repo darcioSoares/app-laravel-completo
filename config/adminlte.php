@@ -85,7 +85,7 @@ return [
     |
     */
 
-    'dashboard_url' => 'admin',
+    'dashboard_url' => 'admin/categories',
 
     'logout_url' => 'logout',
 
@@ -111,13 +111,14 @@ return [
         'OPÇOES ',
         [
             'text' => 'Categorias',
-            'url'  => 'admin/categories',
+            'url'  => 'admin/categories', 
+            'icon' => 'fas fa-adjust'         
            //'can'  => 'manage-blog',
         ],
         [
             'text'        => 'Produtos',
-            'url'         => 'admin/produtcts',
-            'icon'        => 'file'
+            'url'         => 'admin/products',
+            'icon'        => 'fab fa-product-hunt'
                         
         ],
         
